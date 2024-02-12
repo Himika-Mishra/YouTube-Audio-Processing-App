@@ -1,0 +1,6 @@
+streamlit
+pytube
+whisper
+deep_translator
+transformers
+torch
