@@ -14,7 +14,7 @@ def download_youtube_audio(youtube_url):
     return filename
 
 def transcribe_audio(file_path):
-    model = whisper.load_model("base")
+    model = whisper.load("base")
     result = model.transcribe(file_path)
     return result['text']
 
