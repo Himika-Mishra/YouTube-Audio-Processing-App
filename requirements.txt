@@ -1,6 +1,6 @@
 streamlit
 pytube
-whisper
+git+https://github.com/openai/whisper.git
 deep_translator
 transformers
 torch
